@@ -1,0 +1,11 @@
+@using MvcSample.Web.Models;
+@model Blog
+@{
+	Layout = "/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Blog - BradTate.me";
+}
+
+<div class="row">
+	<h3 title="@Model.Title">@Model.Title</h3>
+	@Model.Body	
+</div>
