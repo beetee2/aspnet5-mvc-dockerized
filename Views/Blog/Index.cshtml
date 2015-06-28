@@ -2,10 +2,10 @@
 @model Blog
 @{
 	Layout = "/Views/Shared/_Layout.cshtml";
-	ViewBag.Title = "Blog - BradTate.me";
+	ViewBag.Title = "Blog";
 }
 
-<div class="row">
+<div class="row" style="padding-top: 50px;">
 	<h3 title="@Model.Title">@Model.Title</h3>
 	@Model.Body	
 </div>
